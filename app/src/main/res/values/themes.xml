@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+
+
+    <style name="circleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="CalculatorButtonNewWhite" parent="CalculatorButtonNew">
+        <item name="android:background">@drawable/rounded_background_white</item>
+        <item name="android:textColor">#262626</item>
+    </style>
+    <style name="CalculatorButtonNew">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="CalculatorButtonNewGreen" parent="CalculatorButtonNew">
+        <item name="android:background">@drawable/rounded_background_primary</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="CalculatorButtonNewOrange">
+        <item name="android:background">@drawable/rounded_background_orange</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="roundedButton">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">21dp</item>
+    </style>
+
+
+    <style name="transaction.cash_in_button" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="backgroundTint">@color/disabled_cash_in_button</item>
+    </style>
+
+    <style name="StepTitle">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="StepDescription">
+        <item name="fontFamily">sans-serif-light</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/primary_warm_grey_three</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ProductRoundedImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="170dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rounded_lightgrey_stroke"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/pitche_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:contentDescription="@null"
+                    android:scaleType="fitXY"
+                    app:shapeAppearance="@style/ProductRoundedImage"
+                    app:strokeColor="@null"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/product_prices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pitch_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/noto_sans"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="Northern Pitch" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/reservation_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/noto_sans"
+                android:maxLines="2"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:visibility="gone"
+                tools:text="Marrakesh, Morocco" />
+
+            <TextView
+                android:id="@+id/pitch_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/noto_sans"
+                android:maxLines="2"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                tools:text="Marrakesh, Morocco" />
+
+            <TextView
+                android:id="@+id/pitch_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/noto_sans"
+                android:maxLines="2"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                tools:text="Marrakesh, Morocco" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

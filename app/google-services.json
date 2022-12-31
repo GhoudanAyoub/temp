@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "350813235755",
+    "firebase_url": "https://draripfe-default-rtdb.firebaseio.com",
+    "project_id": "draripfe",
+    "storage_bucket": "draripfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350813235755:android:b968ceeaa89cf59a40d86e",
+        "android_client_info": {
+          "package_name": "com.SyndicG5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350813235755-puvninu4m9ng3tgm6mciri7pcdou9g48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHEIBAr456HKGKaKkjiS5V6UdPZyt2xcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350813235755-puvninu4m9ng3tgm6mciri7pcdou9g48.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "350813235755-hh6arjkmj5s1q5vea806jtl5tg85aeml.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ghoudan.live365"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350813235755:android:988dc3d9a5c7546d40d86e",
+        "android_client_info": {
+          "package_name": "com.dominicsilveira.parkingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350813235755-puvninu4m9ng3tgm6mciri7pcdou9g48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHEIBAr456HKGKaKkjiS5V6UdPZyt2xcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350813235755-puvninu4m9ng3tgm6mciri7pcdou9g48.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "350813235755-hh6arjkmj5s1q5vea806jtl5tg85aeml.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ghoudan.live365"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350813235755:android:2acd7b5b1c37549240d86e",
+        "android_client_info": {
+          "package_name": "com.ghoudan.live365"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350813235755-4o15itiiipb0bf5kvhmbspu9es5s03hp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ghoudan.live365",
+            "certificate_hash": "f0cb0f71ce8bec3b3b102441b319352aa1b7760b"
+          }
+        },
+        {
+          "client_id": "350813235755-cuif0kit7li8lf4oavgb48722t1ecseg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ghoudan.live365",
+            "certificate_hash": "5d907e72856b8f66ab4bf28b0476051fbbd3fe1c"
+          }
+        },
+        {
+          "client_id": "350813235755-l05lboi7acjef996m0e0hiaaooars81d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ghoudan.live365",
+            "certificate_hash": "fa19a4822d984dfcf6f2dafc3c5bfc953e3ae960"
+          }
+        },
+        {
+          "client_id": "350813235755-mobjshf6c4r4rp3an8d95g63d9vne7u1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ghoudan.live365",
+            "certificate_hash": "a0e7cc939253e548e8030960a3a0aeb12470c267"
+          }
+        },
+        {
+          "client_id": "350813235755-puvninu4m9ng3tgm6mciri7pcdou9g48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHEIBAr456HKGKaKkjiS5V6UdPZyt2xcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350813235755-puvninu4m9ng3tgm6mciri7pcdou9g48.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "350813235755-hh6arjkmj5s1q5vea806jtl5tg85aeml.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ghoudan.live365"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350813235755:android:ed0d873f4f77547140d86e",
+        "android_client_info": {
+          "package_name": "com.ghoudan.lmaida"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350813235755-puvninu4m9ng3tgm6mciri7pcdou9g48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHEIBAr456HKGKaKkjiS5V6UdPZyt2xcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350813235755-puvninu4m9ng3tgm6mciri7pcdou9g48.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "350813235755-hh6arjkmj5s1q5vea806jtl5tg85aeml.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ghoudan.live365"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

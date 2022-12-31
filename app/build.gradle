@@ -1,0 +1,163 @@
+plugins {
+    id 'com.android.application'
+    id 'androidx.navigation.safeargs'
+}
+apply plugin: 'kotlin-android'
+apply plugin: 'org.jetbrains.kotlin.plugin.serialization'
+apply plugin: 'dagger.hilt.android.plugin'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdk rootProject.ext.androidCompileSdkVersion
+
+    defaultConfig {
+        applicationId "com.SyndicG5"
+        minSdkVersion rootProject.ext.androidMinSdkVersion
+        targetSdkVersion rootProject.ext.androidTargetSdkVersion
+        versionCode appVersionCode.toInteger()
+        versionName appVersionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        all {
+            manifestPlaceholders = [enableCrashReporting:"true"]
+        }
+        debug {
+            manifestPlaceholders = [enableCrashReporting:"false"]
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(":networking")
+
+    implementation deps.kotlin_jdk7
+    implementation deps.androidx.appcompat
+    implementation deps.androidx.core_ktx
+    implementation deps.androidx.constraintlayout
+    implementation deps.material
+    //todo:check legacy
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    implementation deps.pixplicity
+    implementation deps.pageindicator
+    implementation deps.once
+    implementation deps.google_gson
+    implementation deps.networking.retrofit
+
+    /*implementation ('com.squareup.okhttp3:okhttp:3.12.12') {
+        force = true //API 19 support
+    }*/
+
+    implementation deps.networking.logging_interceptor
+    implementation deps.textdrawable_new
+    implementation deps.networking.retrofit_converter_gson
+    implementation deps.karumi_dexter
+    implementation deps.androidx.activity
+    implementation deps.androidx.fragment
+
+    implementation deps.libphonenumber
+    implementation deps.androidx.multidex
+    implementation deps.currency_edit_text
+    implementation deps.google.play_services_auth
+    implementation deps.google.play_services_auth_api_phone
+    implementation deps.medyo_about_page
+    implementation deps.androidx.work
+    implementation deps.balloon
+    implementation deps.imagepicker
+    implementation deps.esafirm_imagepicker
+    implementation deps.zelory_compressor
+    implementation deps.lifecycle
+    implementation deps.glide.glide
+    implementation deps.androidx.recycler_view
+    implementation 'com.google.android.play:core-ktx:1.8.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1'
+    annotationProcessor deps.glide.compiler
+    implementation deps.stfalcon_imageviewer
+
+    testImplementation deps.test.junit
+    androidTestImplementation deps.test.runner
+    androidTestImplementation deps.test.espresso
+    implementation deps.keyboardvisibilityevent
+
+
+    // permission dispatcher
+    implementation deps.permission.permission_dispatcher
+    annotationProcessor deps.permission.processor
+
+    implementation deps.serialization.kotlinx_serialization
+    implementation deps.serialization.kotlinx_serialization_converter
+
+    implementation deps.livedata_ktx
+    implementation deps.couroutines
+
+    implementation deps.timber
+
+    implementation 'androidx.work:work-runtime-ktx:2.7.1'
+
+    //hilt
+    implementation "com.google.dagger:hilt-android:2.28-alpha"
+    annotationProcessor 'com.google.dagger:hilt-android-compiler:2.28-alpha'
+    implementation 'androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha02'
+    annotationProcessor 'androidx.hilt:hilt-compiler:1.0.0-alpha02'
+
+    implementation deps.circle_indicator
+    implementation deps.androidx.card_view
+
+    //analytics
+    implementation deps.analytics.amplitude
+    implementation deps.analytics.segment
+    implementation deps.analytics.segment_amplitude_integration
+
+    implementation deps.play_service.auth
+    implementation deps.play_service.auth_api_phone
+
+    //rxjava
+    implementation deps.rxjava.rxjava2
+    implementation deps.rxjava.rxandroid
+    implementation deps.rxjava.rxbinding
+
+    def room_version = "2.2.5"
+    // Room
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+    implementation "androidx.room:room-rxjava2:$room_version"
+
+    //navigation
+    implementation  deps.navigation.navigation_fragment
+    implementation  deps.navigation.navigation_ui
+
+    //eventbus
+    implementation 'com.github.greenrobot.EventBus:eventbus:V3.2.0'
+    implementation 'nl.psdcompany:duo-navigation-drawer:3.0.0'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    implementation "com.airbnb.android:lottie:3.4.0"
+    //circleImage
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    //toasty
+    implementation 'com.github.GrenderG:Toasty:1.5.2'
+
+    // google maps library ------------------------------------------------------------------------
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+
+
+    implementation 'com.karumi:dexter:6.2.3'
+    implementation "com.tbuonomo:dotsindicator:4.3"
+}

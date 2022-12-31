@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#FF000000</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="NewBaseColor">#0AADE8</color>
+    <color name="BaseColor">#FA983A</color>
+    <color name="primary">#FA983A</color>
+    <color name="shamrock_green">#1406c056</color>
+
+    <color name="actions_rounded_stroke_color">#29c4c4c4</color>
+    <color name="secondary_cool_blue">#4faac1</color>
+    <color name="colorAmountInBackground">#1906C056</color>
+    <color name="colorAmountOutBackground">#FFF9F9</color>
+    <color name="colorSplashBackground">#f9fafb</color>
+
+    <color name="colorInactiveOnboardingIndicator">#ACDCBF</color>
+    <color name="colorFilterBackground">#AFDFBF</color>
+
+    <color name="colorCashIn">@color/colorPrimary</color>
+    <color name="colorCashOut">#B20027</color>
+    <color name="colorDivider">#23555A54</color>
+
+    <color name="colorDelete">#FF2A59</color>
+
+    <color name="colorWhatsapp">#25D466</color>
+    <color name="colorSms">#03B1FF</color>
+
+    <color name="colorTooltipBackground">#005f24</color>
+
+    <color name="colorGrayLight">#F5F5F5</color>
+    <color name="colorGray">#D3D3D3</color>
+    <color name="colorGrayDark">#a9a9a9</color>
+
+    <color name="report_item_background">#F6F6F6</color>
+    <color name="report_item_settled_background">#E9FFF2</color>
+    <color name="primary_deep_green">#00461b</color>
+    <color name="primary_light_sage">#e5f9ee</color>
+    <color name="primary_brownish_grey">#6c6c6c</color>
+    <color name="primary_pinkish_grey">#bcbcbc</color>
+    <color name="primary_pinkish_grey_two">#cccccc</color>
+    <color name="primary_warm_grey">#707070</color>
+    <color name="primary_warm_grey_two">#9d9d9d</color>
+    <color name="primary_warm_grey_three">#7c7c7c</color>
+    <color name="primary_warm_grey_four">#868686</color>
+    <color name="primary_warm_grey_light">#eaeaea</color>
+    <color name="primary_warm_grey_five">#dddddd</color>
+    <color name="primary_warm_grey_six">#e8e8e8</color>
+
+    <color name="secondary_light_blue">#6ee2ff</color>
+    <color name="secondary_azul_blue">#1b74eb</color>
+    <color name="secondary_dusty_orange">#eb6c43</color>
+    <color name="secondary_seaweed_green">#349b5c</color>
+    <color name="duck_egg_blue">#c4f5da</color>
+    <color name="light_pink">#fdf0ec</color>
+    <color name="secondary_red">#d80000</color>
+
+    <color name="content_dark">#1D2939</color>
+    <color name="content_darkGrey">#667085</color>
+    <color name="content_Grey">#98A2B3</color>
+    <color name="content_lightGrey">#E4E7EC</color>
+    <color name="content_softGrey">#F2F4F7</color>
+    <color name="content_ultraLightGrey">#F9FAFB</color>
+    <color name="content_lightOrange">#FFEAD5</color>
+    <color name="content_white">#FFFFFF</color>
+</resources>

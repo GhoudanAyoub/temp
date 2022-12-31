@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Monuments</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="map_key"></string>
+    //viewBalance
+
+    <string name="notification_group_id_1">check_booking</string>
+    <string name="notification_channel_id_1">channeldID1</string>
+    <string name="notification_group_name_1">Group 1</string>
+    <string name="notification_channel_name_1">Channel name</string>
+    <string name="label_incoming_balance_client">Revenus</string>
+    <string name="label_price">%s</string>
+    <string name="label_search_hint">Recherche…</string>
+    <string name="label_select_all">Tout sélectionner</string>
+    <string name="wait_prog_bar">Attendez, s\'il vous plait  ...</string>
+    <string name="transaction_submit">Save</string>
+    <string name="label_price_dh">%1$.2f DH</string>
+    <string name="label_asterisk_amount">*******</string>
+    <string name="label_fabTransaction">New  Transaction</string>
+    <string name="depenses">Depenses</string>
+    <string name="label_details_transaction">transaction Details</string>
+    <string name="action_delete_2">supprimer</string>
+    <string name="action_cancel_2">Annuler</string>
+    <string name="delete_transaction_title_msg">Es-tu sûr de vouloir supprimer cette transaction?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="immeuble_list_title">Choisir une immeuble</string>
+    <string name="immeuble_list_description">Tu peux sélectionner une immeuble existante ou alors en créer une nouvelle!</string>
+    <string name="create_immeuble">Ou crée ton  Immeuble</string>
+    <string name="immeuble_list_label">Sélectionne une Immeuble existante</string>
+    <string name="quit_prog_bar">Vous n\'avez pas d\'immeuble sous votre responsabilité</string>
+    <string name="footplanet"><font color="#FF000000">Monuments</font> <font color="#19D2C2">Tour</font></string>
+    <string name="createAccount">Don’t have an account ?<font color="#0AADE8"> sign up</font></string>
+    <string name="create_account_desc">already have an account ?<font color="#0AADE8">sign in</font></string>
+    <array name="gender">
+        <item>Select your profile</item>
+        <item>Owner</item>
+        <item>Player</item>
+    </array>
+</resources>

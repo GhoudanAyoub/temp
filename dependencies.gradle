@@ -1,0 +1,185 @@
+ext{
+    androidMinSdkVersion = 21
+    androidTargetSdkVersion = 30
+    androidCompileSdkVersion = 31
+
+    androidx_appcompat_version = '1.4.1'
+    androidx_core_ktx_version = '1.2.0'
+    androidx_constraintlayout_version = '2.1.3'
+    androidx_material_version = '1.5.0'
+    androix_fragment_version = '1.4.0'
+    androix_activity_version = '1.4.0'
+    androidx_multidex_version = '2.0.1'
+    androidx_work_version = '2.4.0'
+
+    eventbus_version='v3.2.0'
+    navigation_fragment_version ='2.3.2'
+    rxjava_version='2.2.10'
+    rxandroid_version='2.1.1'
+    rxbinding_version='3.1.0'
+    room_version  = '2.2.5'
+    kotlin_version = '1.6.10'
+    pixplicity_version = '1.10.0'
+    page_indicator_version = 'v.1.0.3'
+    once_version = '1.3.0'
+    google_gson_version = '2.8.6'
+    logging_interceptor_version = '4.9.3'
+    retrofit_converter_gson_version = '2.4.0'
+    karumi_dexter_version = '6.2.3'
+    libphonenumber_version = '8.12.41'
+    currency_edit_text_version = '0.0.10'
+    play_services_auth_version = '20.1.0'
+    play_services_auth_api_phone_version =  '18.0.1'
+    medyo_about_page_version = '1.3'
+    balloon_version = '1.1.7'
+    imagepicker_version = '1.7.1'
+    esafirm_imagepicker_version = '2.2.0'
+    zelory_compressor_version = '3.0.1'
+    amplitude_version = '2.29.1'
+    localization_version = '1.2.11'
+    android_lifecycle_version = '1.1.1'
+    lifecycle_ktx_version = '2.4.0'
+    glide_version = '4.9.0'
+    staflcon_imageviewer = 'v1.0.1'
+    firebase_bom_version = '29.0.3'
+    firebase_config_version = '20.0.1'
+    text_drawable_version = '1.0.1'
+    text_drawable_new_version = '1.1.3'
+    google_material_version = '1.5.0'
+    facebook_version = '12.2.0'
+    permission_dispatcher_version = '4.9.1'
+    keyboard_visibility_event = '3.0.0-RC2'
+    hilt_version = '2.40.5'
+    ok2curl_version = '0.7.0'
+    kotlinx_serialization_version = '1.3.2'
+    kotlinx_serialization_converter_version = '0.8.0'
+    kotlin_coroutines_version = '1.5.2'
+    hilt_viewmodel_version = '1.0.0-alpha03'
+    hilt_hilt_proc_version = '1.0.0-alpha02'
+    timber_version = '5.0.1'
+    splash_screen_compat_version = '1.0.0-alpha01'
+    retrofit_version = '2.6.2'
+    retrofit_adapter_rxjava2_version = '2.3.0'
+    circle_indicator_version = '2.1.6'
+    androidx_card_view_version = '1.0.0'
+    play_service_auth = '19.0.0'
+    play_service_auth_api_phone = '17.5.0'
+    androidx_recycler_view_version = "1.2.1"
+    segment_version = '4.10.1'
+    segment_amplitude_integration_version = '3.1.0'
+
+    test_junit_version = '4.13.2'
+    test_runner_version = '1.3.0'
+    test_espresso_version = '3.3.0'
+
+
+    deps = [
+            "androidx" : [
+                    'appcompat': "androidx.appcompat:appcompat:$androidx_appcompat_version",
+                    'core_ktx' : "androidx.core:core-ktx:$androidx_core_ktx_version",
+                    'constraintlayout': "androidx.constraintlayout:constraintlayout:$androidx_constraintlayout_version",
+                    'activity': "androidx.activity:activity-ktx:$androix_activity_version",
+                    'fragment': "androidx.fragment:fragment-ktx:$androix_fragment_version",
+                    'multidex' : "androidx.multidex:multidex:$androidx_multidex_version",
+                    'work': "androidx.work:work-runtime-ktx:$androidx_work_version",
+                    'splash_screen': "androidx.core:core-splashscreen:$splash_screen_compat_version",
+                    'card_view'       : "androidx.cardview:cardview:$androidx_card_view_version",
+                    'recycler_view' : "androidx.recyclerview:recyclerview:$androidx_recycler_view_version"
+            ],
+            'google' : [
+                    'play_services_auth': "com.google.android.gms:play-services-auth:$play_services_auth_version",
+                    'play_services_auth_api_phone' : "com.google.android.gms:play-services-auth-api-phone:$play_services_auth_api_phone_version",
+                    'material' : "com.google.android.material:material:$google_material_version"
+
+            ],
+            'networking' :[
+                    'retrofit'           : "com.squareup.retrofit2:retrofit:$retrofit_version",
+                    'retrofit_adapter_rxjava2':"com.squareup.retrofit2:adapter-rxjava2:2.3.0",
+                    'logging_interceptor': "com.squareup.okhttp3:logging-interceptor:$logging_interceptor_version",
+                    'retrofit_converter_gson' : "com.squareup.retrofit2:converter-gson:$retrofit_converter_gson_version",
+                    'ok2curl'            : "com.github.mrmike:ok2curl:$ok2curl_version"
+            ],
+            'serialization'   : [
+                    'kotlinx_serialization' : "org.jetbrains.kotlinx:kotlinx-serialization-json:$kotlinx_serialization_version",
+                    'kotlinx_serialization_converter': "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:$kotlinx_serialization_converter_version"
+            ],
+            'rxjava':[
+                    'rxjava2':"io.reactivex.rxjava2:rxjava:$rxjava_version",
+                    'rxandroid':"io.reactivex.rxjava2:rxandroid:$rxandroid_version",
+                    'rxbinding':"com.jakewharton.rxbinding3:rxbinding:$rxbinding_version"
+            ],
+            'room':[
+                    'room_runtime':"androidx.room:room-runtime:$room_version",
+                    'room_guava':"androidx.room:room-guava:$room_version",
+                    'room_rxjava':"androidx.room:room-rxjava2:$room_version",
+                    'room_processor':"androidx.room:room-compiler:$room_version"
+            ],
+            'navigation':[
+                    'navigation_fragment':"androidx.navigation:navigation-fragment:$navigation_fragment_version",
+                    'navigation_ui':"androidx.navigation:navigation-ui:$navigation_fragment_version"
+            ],
+            'glide': [
+                    'glide': "com.github.bumptech.glide:glide:$glide_version",
+                    'compiler': "com.github.bumptech.glide:compiler:$glide_version"
+            ],
+            'firebase': [
+                    'bom': "com.google.firebase:firebase-bom:$firebase_bom_version",
+                    'messaging': "com.google.firebase:firebase-messaging-ktx",
+                    'analytics': "com.google.firebase:firebase-analytics-ktx",
+                    'crashlytics': "com.google.firebase:firebase-crashlytics-ktx",
+                    'auth': "com.google.firebase:firebase-auth",
+                    'config':"com.google.firebase:firebase-config:$firebase_config_version"
+            ],
+            'permission': [
+                    'permission_dispatcher': "com.github.permissions-dispatcher:permissionsdispatcher:$permission_dispatcher_version",
+                    'processor': "com.github.permissions-dispatcher:permissionsdispatcher-processor:$permission_dispatcher_version"
+            ],
+            'analytics'       : [
+                    'amplitude'                    : "com.amplitude:android-sdk:$amplitude_version",
+                    'segment'                      : "com.segment.analytics.android:analytics:$segment_version",
+                    'segment_amplitude_integration':
+                            "com.segment.analytics.android.integrations:amplitude:$segment_amplitude_integration_version",
+            ],
+            'dependency_injection': [
+                    'hilt': "com.google.dagger:hilt-android:$hilt_version",
+                    'hilt_processor': "com.google.dagger:hilt-compiler:$hilt_version",
+                    'hilt_viewmodel'  : "androidx.hilt:hilt-lifecycle-viewmodel:$hilt_viewmodel_version",
+                    'hilt_hilt_proc'  : "androidx.hilt:hilt-compiler:$hilt_hilt_proc_version",
+            ],
+            'test': [
+                    'junit' : "junit:junit:$test_junit_version",
+                    'runner': "androidx.test:runner:$test_runner_version",
+                    'espresso': "androidx.test.espresso:espresso-core:$test_espresso_version"
+            ],
+            'play_service':[
+                    'auth':"com.google.android.gms:play-services-auth:$play_service_auth",
+                    'auth_api_phone':"com.google.android.gms:play-services-auth-api-phone:$play_service_auth_api_phone"
+            ],
+            'material': "com.google.android.material:material:$androidx_material_version",
+            'pixplicity': "com.pixplicity.easyprefs:EasyPrefs:$pixplicity_version",
+            'pageindicator': "com.github.romandanylyk:PageIndicatorView:$page_indicator_version",
+            'once': "com.jonathanfinerty.once:once:$once_version",
+            'google_gson': "com.google.code.gson:gson:$google_gson_version",
+            'karumi_dexter': "com.karumi:dexter:$karumi_dexter_version",
+            'libphonenumber': "io.michaelrocks:libphonenumber-android:$libphonenumber_version",
+            'currency_edit_text': "com.cottacush:CurrencyEditText:$currency_edit_text_version",
+            'medyo_about_page': "com.github.medyo:android-about-page:$medyo_about_page_version",
+            'balloon': "com.github.skydoves:balloon:$balloon_version",
+            'imagepicker': "com.github.dhaval2404:imagepicker:$imagepicker_version",
+            'esafirm_imagepicker': "com.github.esafirm.android-image-picker:imagepicker:$esafirm_imagepicker_version",
+            'zelory_compressor': "id.zelory:compressor:$zelory_compressor_version",
+            'localization': "com.akexorcist:localization:$localization_version",
+            'lifecycle': "android.arch.lifecycle:extensions:$android_lifecycle_version",
+            'livedata_ktx': "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_ktx_version",
+            'stfalcon_imageviewer': "com.github.stfalcon-studio:StfalconImageViewer:$staflcon_imageviewer",
+            'textdrawable': "com.amulyakhare:com.amulyakhare.textdrawable:$text_drawable_version",
+            'textdrawable_new': "com.github.ramseth001:TextDrawable:$text_drawable_new_version",
+            'facebook': "com.facebook.android:facebook-android-sdk:$facebook_version",
+            'keyboardvisibilityevent': "net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:$keyboard_visibility_event",
+            'kotlin_jdk7': "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version",
+            'timber'          : "com.jakewharton.timber:timber:$timber_version",
+            'couroutines'     : "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version",
+            'circle_indicator': "me.relex:circleindicator:$circle_indicator_version",
+            'eventbus':"com.github.greenrobot.EventBus:eventbus:$eventbus_version"
+    ]
+}
